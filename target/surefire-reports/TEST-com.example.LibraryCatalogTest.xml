@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.LibraryCatalogTest" time="0.009" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.LibraryCatalogTest" time="0.008" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/nurbek/projects/library-catalog/library-catalog/target/surefire/surefirebooter12366514094142018761.jar /Users/nurbek/projects/library-catalog/library-catalog/target/surefire 2026-02-19T17-14-58_260-jvmRun1 surefire1638800363644782710tmp surefire_02392189255801482796tmp"/>
+    <property name="sun.java.command" value="/Users/nurbek/projects/library-catalog/library-catalog/target/surefire/surefirebooter16660468927436460978.jar /Users/nurbek/projects/library-catalog/library-catalog/target/surefire 2026-02-19T17-31-25_610-jvmRun1 surefire7680346012662460107tmp surefire_03053240860239688306tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/nurbek/projects/library-catalog/library-catalog/target/test-classes:/Users/nurbek/projects/library-catalog/library-catalog/target/classes:/Users/nurbek/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/nurbek/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/nurbek/projects/library-catalog/library-catalog/target/surefire/surefirebooter12366514094142018761.jar"/>
+    <property name="surefire.real.class.path" value="/Users/nurbek/projects/library-catalog/library-catalog/target/surefire/surefirebooter16660468927436460978.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.2"/>
@@ -62,7 +62,7 @@
   <testcase name="negative_emptyTitle_throwsException" classname="com.example.LibraryCatalogTest" time="0.001"/>
   <testcase name="search_findsBook" classname="com.example.LibraryCatalogTest" time="0"/>
   <testcase name="sort_sortsAlphabetically" classname="com.example.LibraryCatalogTest" time="0"/>
-  <testcase name="guaranteedFail" classname="com.example.LibraryCatalogTest" time="0.002">
+  <testcase name="guaranteedFail" classname="com.example.LibraryCatalogTest" time="0.001">
     <failure message="THIS TEST MUST FAIL" type="java.lang.AssertionError">java.lang.AssertionError: THIS TEST MUST FAIL
 	at com.example.LibraryCatalogTest.guaranteedFail(LibraryCatalogTest.java:40)
 </failure>

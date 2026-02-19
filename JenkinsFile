@@ -4,7 +4,11 @@ pipeline {
     stages {
         stage('Build & Test') {
             steps {
+                // Если Linux/macOS
                 sh 'mvn clean test'
+
+                // Если Windows агент, раскомментировать:
+                // bat 'mvn clean test'
             }
         }
     }
