@@ -34,7 +34,7 @@ public class LibraryCatalog {
         return sorted;
     }
 
-    // Размер каталога
+    // Размер каталога хуй
     public int size() {
         return books.size();
     }
